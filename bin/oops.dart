@@ -43,16 +43,16 @@ passed=$ispassed""");
 }
 void checkpassstatus(){
   if(ispassed==true){
-    print("student has passed");
+    print("student has  to be passed");
   }else{
-    print("student has not passed");
+    print("student has to be not passed");
   }
 }
 }
 
 void main(){
   student ss = student(name: "sajadh", age: 33, grade: "0",ispassed: true);
-  student su = student(name: "farsana pa", age: 34, grade: "p");
+  student su = student(name: "hisana ps", age: 34, grade: "p");
   ss.displayinfo();
   ss.checkpassstatus();
   print("----------------------------------------");
